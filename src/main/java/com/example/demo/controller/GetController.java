@@ -11,9 +11,7 @@ public class GetController {
         return "index";
     }
 
-    @GetMapping("/welcome")
-    public String getWelcome() {
-        return "welcome";
-    }
+    @GetMapping("license")
+    public String getLicense() { return "license"; }
 }
 
